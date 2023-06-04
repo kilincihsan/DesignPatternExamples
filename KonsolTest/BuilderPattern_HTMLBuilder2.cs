@@ -61,7 +61,7 @@ namespace Builders.OrdinaryBuilderPattern_HTMLBuilder2
     {
         public static void Execute()
         {
-            Console.WriteLine("##################### fluent builder pattern #####################");
+            Console.WriteLine("\n##################### fluent builder pattern #####################");
 
             var builder = new HTMLBuilder("ul");
             builder.AddChild("li", "fox");

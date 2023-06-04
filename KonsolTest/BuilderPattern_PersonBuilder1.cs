@@ -85,7 +85,7 @@
     {
         public static void Execute()
         {
-            Console.WriteLine("##################### generic builder example - personbuilder #####################");
+            Console.WriteLine("\n##################### generic builder example - personbuilder #####################");
 
             PersonBuilder pb = new PersonBuilder();
             pb.SetName("John").SetSurname("Doe").SetAge(12).SetJobLevel(JobLevel.senior).SetExperience(2).SetSalary(1000);

@@ -1,5 +1,6 @@
 ﻿using Builders;
 using Builders.BuilderPattern_HTMLBuilder1;
+using Builders.FacetedBuilder_CV;
 using Builders.OrdinaryBuilderPattern_HTMLBuilder2;
 using DesignPatternExamples.Builders.PersonBuilder1;
 using DesignPatternExamples.Builders.PersonBuilder2;
@@ -27,5 +28,8 @@ public class Program
         here is an example of how to use them fluently with inheritance
          */
         BuilderPattern_PersonBuilder2.Execute();
+
+        /* faceted builder */
+        FacetedBuilder_CV.Execute();
     }
 }

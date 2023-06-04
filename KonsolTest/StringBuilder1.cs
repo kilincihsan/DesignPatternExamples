@@ -10,7 +10,7 @@ namespace Builders
     {
         public static void Execute()
         {
-            Console.WriteLine("##################### string builder #####################");
+            Console.WriteLine("\n##################### string builder #####################");
 
             var words = new[] { "fox", "wolf", "dog" };
             StringBuilder sb = new StringBuilder();

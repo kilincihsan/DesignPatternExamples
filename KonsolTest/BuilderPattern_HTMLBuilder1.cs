@@ -61,7 +61,7 @@ namespace Builders.BuilderPattern_HTMLBuilder1
     {
         public static void Execute()
         {
-            Console.WriteLine("##################### non-fluent builder pattern #####################");
+            Console.WriteLine("\n##################### non-fluent builder pattern #####################");
 
             var builder = new HTMLBuilder("ul");
             builder.AddChild("li", "fox");

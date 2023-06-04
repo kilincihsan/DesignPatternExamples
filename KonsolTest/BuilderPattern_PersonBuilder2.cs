@@ -97,7 +97,7 @@ namespace DesignPatternExamples.Builders.PersonBuilder2
     {
         public static void Execute()
         {
-            Console.WriteLine("##################### builder with recursive generics example - personbuilder 2 #####################");
+            Console.WriteLine("\n##################### builder with recursive generics example - personbuilder 2 #####################");
 
             /* when you use inheritance between builders you can use recursive generics to return the derived class
              * normally this would not work because PersonBuilder will not return PersonJobBuilder
