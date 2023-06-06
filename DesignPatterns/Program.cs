@@ -2,6 +2,7 @@
 using Builders.BuilderPattern_HTMLBuilder1;
 using Builders.FacetedBuilder_CV;
 using Builders.OrdinaryBuilderPattern_HTMLBuilder2;
+using Builders.StepBuilderPattern_ChessMoveBuilder;
 using DesignPatternExamples.Builders.PersonBuilder1;
 using DesignPatternExamples.Builders.PersonBuilder2;
 using System.Text;
@@ -10,6 +11,7 @@ public class Program
 {
     static void Main(string[] args)
     {
+        #region Builder Design Patterns
         /* string builder */
         StringBuilder1.Execute();
 
@@ -30,6 +32,10 @@ public class Program
         BuilderPattern_PersonBuilder2.Execute();
 
         /* faceted builder */
-        FacetedBuilder_CV.Execute();
+        FacetedBuilder_CVBuilder.Execute();
+
+        /* stepwise chess move builder */
+        StepBuilderPattern_ChessMoveBuilder.Execute();
+        #endregion
     }
 }

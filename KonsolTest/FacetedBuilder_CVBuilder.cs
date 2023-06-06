@@ -130,7 +130,7 @@ namespace Builders.FacetedBuilder_CV
         }
     }
         
-    public class FacetedBuilder_CV
+    public class FacetedBuilder_CVBuilder
     {
         public static void Execute()
         {
